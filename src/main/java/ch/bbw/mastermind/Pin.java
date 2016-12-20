@@ -1,4 +1,4 @@
-package ch.bbw.calc;
+package ch.bbw.mastermind;
 
 public class Pin {
 

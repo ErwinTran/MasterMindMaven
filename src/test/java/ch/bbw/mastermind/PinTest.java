@@ -1,8 +1,10 @@
-package ch.bbw.calc;
+package ch.bbw.mastermind;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
+
+import ch.bbw.mastermind.Pin;
 
 public class PinTest {
 	
