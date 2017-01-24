@@ -9,7 +9,11 @@ public class Pin {
 	}
 	
 	Pin(char value) {
-		this.value = Character.getNumericValue(value);
+		int temp = Character.getNumericValue(value);
+		if(temp <= 0 || temp > 9) {
+			temp = 0;
+		}
+		this.value = temp;
 	}
 	
 	public int getValue() {
